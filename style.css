@@ -1,0 +1,192 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&family=Open+Sans&display=swap');
+
+.container {
+    max-width: 1200px;
+}
+
+@media (max-width: 650px) {
+    .container {
+        padding: 30px;
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    background: rgb(252, 245, 240);
+    margin: 50px;
+    color: rgb(0, 0, 0);
+    opacity: 0.85;
+}
+
+h1, h4, h6 {
+    margin: 0;
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.picture {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: auto;
+}
+
+.info-text {
+    margin-left: 20px;
+}
+
+.info-text h1 {
+    margin-top: 0;
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    opacity: 0.75;
+}
+
+.info-text a {
+    color: black;
+    text-decoration: none;
+}
+
+.info-text a:hover {
+    color: rgb(206, 109, 30);
+    text-decoration: underline;
+    background: rgb(179, 174, 174);
+    border-radius: 3px;
+    padding: 0px 3px;
+}
+
+.info-text a:visited {
+    color: rgb(206, 109, 30);
+}
+
+.hobby {
+    background: rgb(238, 235, 229);
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.hobby h4 {
+    padding-bottom: 10px;
+    padding-left: 10px;
+} 
+
+ul, li, .list {
+    padding: 0;
+    margin: 0;
+}
+
+.list {
+    list-style: none;
+    padding: 0 10px;
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+.work {
+    padding-top: 1px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.work h4 {
+    padding: 20px;
+    background: bisque;
+    border-radius: 20px;
+}
+
+.table {
+    width: 100%;
+    padding: 10px;
+}
+
+.table td {
+    padding: 10px;
+}
+
+.table tbody td:nth-child(odd) {
+    background: peachpuff;
+}
+
+.table tbody td:nth-child(1):hover {
+    background: rgb(226, 162, 110);
+}
+
+.table tbody td:nth-child(even) {
+    background: rgb(226, 162, 110);
+}
+
+.contacts {
+    padding: 10px; 
+}
+
+.contacts h4 {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.form-group label {
+    display: block;
+    color: rgb(206, 109, 30);
+    padding-top: 20px; 
+    
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box; 
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    font-size: 18px;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;   
+}
+
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;   
+}
+
+.btn {
+    margin-top: 5px;
+    padding: 10px 25px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-color: rgb(226, 162, 110);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
